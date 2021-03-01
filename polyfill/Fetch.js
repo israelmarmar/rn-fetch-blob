@@ -1,6 +1,6 @@
 import RNFetchBlob from '../index.js'
 import Log from '../utils/log.js'
-import fs from '../fs'
+import fs from 'graceful-fs'
 import unicode from '../utils/unicode'
 import Blob from './Blob'
 

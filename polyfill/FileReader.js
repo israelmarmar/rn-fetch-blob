@@ -6,7 +6,7 @@ import ProgressEvent from './ProgressEvent.js'
 import EventTarget from './EventTarget'
 import Blob from './Blob'
 import Log from '../utils/log.js'
-import fs from '../fs'
+import fs from 'graceful-fs'
 
 const log = new Log('FileReader')
 

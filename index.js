@@ -17,7 +17,7 @@ import type {
 } from './types'
 import URIUtil from './utils/uri'
 //import StatefulPromise from './class/StatefulPromise.js'
-import fs from './fs'
+import fs from 'graceful-fs'
 import getUUID from './utils/uuid'
 import base64 from 'base-64'
 import polyfill from './polyfill'
